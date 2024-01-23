@@ -26,7 +26,9 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
 
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture1.JPG)
 
-It is evident that NaN values are of type 'object' and are being replaced by np.NaN
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture2.JPG)
+
+It is clear that NaN values appear in the dataset as 'na' and are of type 'object', and they are being replaced by np.NaN.
 
 
 
