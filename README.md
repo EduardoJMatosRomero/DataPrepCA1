@@ -22,16 +22,22 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
 
 ## EDA
 
-1. NaN cleaning
+Our dataset has 60000 entries, 59000 of them classified as True and 1000 classified as False class. 
+
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture3.JPG)
+
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture4.JPG)
+
+### NaN cleaning
+
+- It is clear that NaN values appear in the dataset as 'na' and are of type 'object', and they are being replaced by np.NaN.
 
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture1.JPG)
 
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture2.JPG)
 
-It is clear that NaN values appear in the dataset as 'na' and are of type 'object', and they are being replaced by np.NaN.
+- It has been decided to remove columns with more than 70% NaN values to ensure a clear database for our predictions,coming from 171 columns to 161.
 
-
-
-2. It has been decided to remove columns with more than 70% NaN values to ensure a clear database for our predictions.
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture5.JPG)
 
 
