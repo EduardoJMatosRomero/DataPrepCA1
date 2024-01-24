@@ -20,7 +20,7 @@ In this case Cost_1 refers to the cost that an unnessecary check needs to be don
 
 Total_cost = Cost_1No_Instances + Cost_2No_Instances.
 
-## EDA
+## EDA & Data Cleaning
 
 Our dataset has 60000 entries, 59000 of them classified as True and 1000 classified as False class. 
 
@@ -38,10 +38,24 @@ Our dataset has 60000 entries, 59000 of them classified as True and 1000 classif
 
 - To ensure a clear database for our predictions, it has been decided to remove columns with more than 70% NaN values. This reduces the number of columns from 171 to 161.
  
-![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture.JPG)
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture6.JPG)
 
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture5.JPG)
 
+## Data Cleaning
 
+- The median was chosen to handle NaN values because it is more robust and not sensitive to outliers, making it suitable for skewed data.
+
+- It has been decided to use MinMaxScaler to normalise the data
+
+### PCA
+
+PCA is a technique that seeks the optimal number of features to achieve the best outcome from our algorithms. Having too many features may lead to poor algorithm performance.
+
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture7.JPG)
+
+From our PCA analysis, we have determined that the optimal number of features is 80.
+
+## Machine learning classification algorithms analysis.
 
 
