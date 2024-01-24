@@ -36,7 +36,7 @@ Our dataset has 60000 entries, 59000 of them classified as True and 1000 classif
 
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture2.JPG)
 
-- It has been decided to remove columns with more than 70% NaN values to ensure a clear database for our predictions,coming from 171 columns to 161.
+- To ensure a clear database for our predictions, it has been decided to remove columns with more than 70% NaN values. This reduces the number of columns from 171 to 161.
 
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture5.JPG)
 
