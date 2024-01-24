@@ -22,7 +22,7 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
 
 ## EDA
 
-### NaN cleaning
+1. NaN cleaning
 
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture1.JPG)
 
@@ -32,5 +32,6 @@ It is clear that NaN values appear in the dataset as 'na' and are of type 'objec
 
 
 
+2. It has been decided to remove columns with more than 70% NaN values to ensure a clear database for our predictions.
 
 
