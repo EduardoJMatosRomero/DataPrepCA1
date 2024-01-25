@@ -69,5 +69,13 @@ The Random Forest algorithms have accurately predicted 98.31% of the data test s
 
 The output shows the Random Forest (RF) model's performance in 10-fold cross-validation on training data. It achieved a high average accuracy of 98.3333% with very low variability (standard deviation of 0.000132), indicating consistent and reliable predictions across different subsets of the training data.
 
+### Random forest classification Analysis.
 
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture9.JPG)
+
+Performing machine learning and classification algorithms, we have developed an analysis that has enabled us to create a model with the ability to:
+
+- Minimise the occurrence of missed maintenance of our lorries with specific APS system component failures by bringing them to the mechanic promptly and regularly.
+
+- Identify that this happens in only 1.72% (where 12000=100% and 203=1.72%) of the occasions when we miss a faulty tuck.
 
