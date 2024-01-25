@@ -90,3 +90,13 @@ Considering that every time we send our trucks to the mechanic by mistake it cos
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture10.JPG)
 
 After applying undersampling techniques, we obtained 3000 entries with failures for components not related to the APS and 1000 entries with failures for components related to the APS.
+
+2. Standardizing the data
+
+Even though it was decided not to use a linear model to run our model, we decided to standardise our data set.
+
+3. Model fitting using the best parameter and confusion matrix
+
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture10.JPG)
+
+
