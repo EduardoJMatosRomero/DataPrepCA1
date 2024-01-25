@@ -58,4 +58,16 @@ From our PCA analysis, we have determined that the optimal number of features is
 
 ## Machine learning classification algorithms analysis.
 
+### Classification algorithms - Random Forest
+
+We have decided to use Random forest algorithms to classify our data.
+
+The Random Forest algorithms have accurately predicted 98.31% of the data test set. It is worth noting that the algorithms have shown a tendency to mispredict false negatives rather than false positives, with 203 out of 12,000 values being incorrectly identified.¶
+(12000 values=20% dataset=Test Data)
+
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture8.JPG)
+
+The output shows the Random Forest (RF) model's performance in 10-fold cross-validation on training data. It achieved a high average accuracy of 98.3333% with very low variability (standard deviation of 0.000132), indicating consistent and reliable predictions across different subsets of the training data.
+
+
 
