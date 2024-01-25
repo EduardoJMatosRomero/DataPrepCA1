@@ -97,6 +97,6 @@ Even though it was decided not to use a linear model to run our model, we decide
 
 3. Model fitting using the best parameter and confusion matrix
 
-![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture10.JPG)
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture11.JPG)
 
 
