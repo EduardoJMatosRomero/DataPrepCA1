@@ -90,3 +90,15 @@ Considering that every time we send our trucks to the mechanic by mistake it cos
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture10.JPG)
 
 After applying undersampling techniques, we obtained 3000 entries with failures for components not related to the APS and 1000 entries with failures for components related to the APS.
+
+2. Standardizing the data
+
+Even though it was decided not to use a linear model to run our model, we decided to standardise our data set.
+
+3. Model fitting using the best parameter and confusion matrix
+
+A RandomForestClassifier with 1000 estimators and a maximum depth of 10 was used to generate this output. The validation set's confusion matrix indicates 13,638 true negatives, 4,062 false positives, 241 false negatives, and 59 true positives. Type 1 and Type 2 errors are 4,062 and 241, respectively, resulting in a total cost of 161,120 units.
+
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture11.JPG)
+
+
