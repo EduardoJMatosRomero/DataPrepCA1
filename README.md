@@ -108,6 +108,5 @@ Different thresholds were performed to evaluate the precision, recall, and custo
 
 Applying the specific threshold was applied (0.63) to the predicted probabilities and calculated the confusion matrix, identifying the number of Type 1 and Type 2 errors, and computing the total cost based on these errors.
 
-The analysis of the data processing reveals 139 false positives and 297 false negatives. Based on a cost function of 10 units per false positive and 500 per false negative, the total cost is calculated as 149,890. These results indicate the need for model adjustment to reduce errors and costs.
-
+The analysis of the data processing reveals 139 false positives and 297 false negatives. Based on a cost function of 10 units per false positive and 500 per false negative, the total cost is calculated as 149,890€.
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture13.JPG)
