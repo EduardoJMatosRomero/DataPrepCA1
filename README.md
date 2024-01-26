@@ -97,8 +97,17 @@ Even though it was decided not to use a linear model to run our model, we decide
 
 3. Model fitting using the best parameter and confusion matrix
 
-A RandomForestClassifier with 1000 estimators and a maximum depth of 10 was used to generate this output. The validation set's confusion matrix indicates 13,638 true negatives, 4,062 false positives, 241 false negatives, and 59 true positives. Type 1 and Type 2 errors are 4,062 and 241, respectively, resulting in a total cost of 161,120 units.
+A RandomForestClassifier with 1000 estimators and a maximum depth of 10 was used to generate this output. The validation set's confusion matrix indicates 13,638 true negatives, 4,062 false positives, 241 false negatives, and 59 true positives. Type 1 and Type 2 errors are 4,062 and 241, respectively, resulting in a total cost of 161,120 €.
 
 ![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture11.JPG)
 
+Different thresholds were performed to evaluate the precision, recall, and custom-defining cost in a classification model. The goal is to find the threshold that balances these metrics effectively.
+- At 0.63, we observe that precision is almost more than 95% and recall is almost around 95%. We want our recall to be near to 100% and at the same time we also want our precision to be high.
+ 
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture12.JPG)
 
+Applying the specific threshold was applied (0.63) to the predicted probabilities and calculated the confusion matrix, identifying the number of Type 1 and Type 2 errors, and computing the total cost based on these errors.
+
+The analysis of the data processing reveals 139 false positives and 297 false negatives. Based on a cost function of 10 units per false positive and 500 per false negative, the total cost is calculated as 149,890. These results indicate the need for model adjustment to reduce errors and costs.
+
+![image](https://github.com/EduardoJMatosRomero/DataPrepCA1/blob/main/Images/Capture13.JPG)
